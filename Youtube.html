@@ -6,49 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube-Practice</title>
-    <style>
-        .thumbnail {
-            width: 300px;
-            display: block;
-            /* height: 200px;
-            object-fit: contain;
-            object-position: right;
-            border-width: 2px;
-            border-style: solid;
-            border-color: red; */
-
-        }
-
-        .search-bar {
-            font-size: 20px;
-            margin-left: 12px;
-            border-radius: 3px;
-        }
-
-        .video-title {
-            width: 300px;
-        }
-
-        .video-author,
-        .video-stats {
-            display: inline-block;
-        }
-    </style>
+    <link rel="stylesheet" href="Youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <input class="search-bar" type="text" placeholder="Search">
+    <div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/thumbnail-1.webp">
+            </div>
+            <div>
+                <div class="channel-picture">
+                    <img class="profile-picture" src="images/channel-1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
 
-    <img class="thumbnail" src="thumbnail-1.webp">
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
 
-    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                </div>
+            </div>
 
-    <p class="video-author">Marques Brownlee</p>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="images/thumbnail-2.webp">
+            </div>
+            <div>
+                <div class="channel-picture">
+                    <img class="profile-picture" src="images/channel-2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    <p class="video-author">Markiplier</p>
 
-    <p class="video-stats">3.4M views · 6 months ago</p>
-    <p>
+                    <p class="video-stats">19M views &#183; 4 years ago</p>
 
-    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>
